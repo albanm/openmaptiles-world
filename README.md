@@ -33,17 +33,17 @@ git checkout tags/v3.11
 List available areas:
 
 ```
-openmaptiles-world list
+bin/openmaptiles-world.js list
 ```
 
 Add or update an area to world.mbtiles:
 
 ```
-openmaptiles-world update bretagne
+bin/openmaptiles-world.js update bretagne
 ```
 
 Run a mini server with a map to inspect current state of world.mbtiles:
 
 ```
-openmaptiles-world inspect
+bin/openmaptiles-world.js inspect
 ```
