@@ -1,0 +1,43 @@
+{
+  "name": "openmaptiles-world",
+  "version": "0.0.0",
+  "description": "Helper to incrementally produce worldwide vector tiles for OSM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext js,vue --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koumoul-dev/openmaptiles-world.git"
+  },
+  "keywords": [
+    "OSM",
+    "OpenMapTiles",
+    "tiles"
+  ],
+  "author": "Alban Mouton <alban.mouton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koumoul-dev/openmaptiles-world/issues"
+  },
+  "homepage": "https://github.com/koumoul-dev/openmaptiles-world#readme",
+  "dependencies": {
+    "@mapbox/mbtiles": "^0.11.0",
+    "@mapbox/vector-tile": "^1.3.1",
+    "child-process-promise": "^2.2.1",
+    "commander": "^5.1.0",
+    "event-to-promise": "^0.8.0",
+    "vt-pbf": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "express": "^4.17.1",
+    "mocha": "^7.1.2"
+  }
+}

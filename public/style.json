@@ -1,0 +1,16 @@
+{
+  "version": 8,
+  "name": "Inspect",
+  "center": [0, 0],
+  "zoom": 1,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "http://localhost:5937/world.json"
+    }
+  },
+  "id": "inspect",
+  "layers": []
+}
