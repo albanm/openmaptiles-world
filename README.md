@@ -39,7 +39,9 @@ bin/openmaptiles-world.js list
 Add or update an area to world.mbtiles:
 
 ```
-bin/openmaptiles-world.js update bretagne
+bin/openmaptiles-world.js --debug update bretagne
+bin/openmaptiles-world.js --debug update pays-de-la-loire
+bin/openmaptiles-world.js --debug update basse-normandie
 ```
 
 Run a mini server with a map to inspect current state of world.mbtiles:
